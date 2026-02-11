@@ -41,5 +41,8 @@ def guess(img):
 
     # Print prediction and confidence score
 
+    if confidence_score < 0.5:
+        return "FAILED_TO_DETECT"
+
     return class_name[2:]
 
