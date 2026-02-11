@@ -73,6 +73,8 @@ We have logged in as <nama_bot>
 - `$check` -> menyimpan attachment ke folder `uploads/`
 - `$dos` -> klasifikasi gambar attachment menjadi `DONUT` / `SIMIT`
 
+![Contoh_penggunaan](img/contoh.png)
+
 ## Contoh Alur Pakai
 1. Ketik `$dos` sambil attach gambar
 2. Bot menyimpan file ke `uploads/`
@@ -89,6 +91,16 @@ We have logged in as <nama_bot>
 - Tambahkan logging error saat gambar tidak valid
 - Tambahkan command untuk menampilkan confidence score
 - Tambahkan lebih banyak kelas dan retrain model
+
+## Lisensi
+Proyek ini menggunakan lisensi kustom: `Custom Non-Commercial & Ethical Use License (CNEUL) v1.0`.
+
+Ringkasannya:
+- Tidak boleh digunakan untuk hal berbahaya atau melanggar hukum
+- Tidak boleh dijual atau digunakan untuk tujuan komersial tanpa izin tertulis
+- Jika didistribusikan ulang, wajib mencantumkan atribusi dan menyertakan lisensi
+
+Detail lengkap ada di file `LICENSE`.
 
 ---
 
