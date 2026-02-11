@@ -39,7 +39,10 @@ async def dos(ctx):
 
             await attachment.save(f"./uploads/{attachment.filename}")
             classs=mp.guess(f"./uploads/{attachment.filename}")
-            await ctx.send(f"Hmm... Aku rasa ini adalah: {classs} ")
+            if not classs == "FAILED_TO_DETECT":
+                await ctx.send(f"Hmm... Aku rasa ini adalah: {classs} ")
+            else :
+                await ctx.send("Aduh gambarnya jelek banget, aku ga bisa nebak deh...")
 
     else:
         await ctx.send("NGGA ADA GAMBAR MASA MAU KLASIFIKASI SIHHH????")
